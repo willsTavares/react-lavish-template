@@ -5,7 +5,7 @@ import Home from './components/pages/HomePage/Home';
 import Footer from './components/pages/Footer/Footer.js';
 import Services from './components/pages/Services/Services';
 import Products from './components/pages/Products/Products';
-import SingUp from './components/pages/SingUp/SingUp';
+import SignUp from './components/pages/SignUp/SignUp';
 
 import './App.css';
 
@@ -17,7 +17,7 @@ function App() {
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />
         <Route path='/products' component={Products} />
-        <Route path='/sing-up' component={SingUp} />
+        <Route path='/sign-up' component={SignUp} />
       </Switch>
       <Footer />
     </Router>
